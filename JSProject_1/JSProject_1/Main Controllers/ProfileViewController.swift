@@ -43,7 +43,7 @@ class ProfileViewController: UIViewController, UITextViewDelegate, UIPickerViewD
         self.genderPicker.dataSource = self
         
         genderPickerData = ["Cisgender Male", "Cisgender Female", "Transgender Male", "Transgender Female", "Two-Spirit", "Non-Binary", "Genderqueer", "Gender fluid", "Gender neutral"]
-        preferencePickerData = ["Straight", "Bisexual", "Gay", "Lesbian", "Bi-curious", "Pansexual",]
+        preferencePickerData = ["Straight", "Bisexual", "Gay", "Lesbian", "Bi-curious", "Pansexual", "Asexual"]
         // Set placeholder for UITextView
         bioTextView.text = "Add a bio to your profile"
         bioTextView.delegate = self
